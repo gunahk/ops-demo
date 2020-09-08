@@ -1,0 +1,1 @@
+{"jobID":"7b2a5449-54c1-3adf-a5ea-6361c285005a","spec":{"type":"policy","cause":{"Message":"","User":"Guna sekhar \u003cguna.hk93@gmail.com\u003e"},"spec":{"default:deployment/laravel-kubernetes-demo":{"add":{"automated":"true"},"remove":null}}},"result":null}
