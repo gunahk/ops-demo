@@ -1,0 +1,22 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: laravel-stag
+spec:
+  selector:
+    matchLabels:
+      run: laravel-stag
+  template:
+    metadata:
+      labels:
+        run: laravel-stag
+    spec:
+      containers:
+      - name: stag
+        image: "235537379753.dkr.ecr.us-east-1.amazonaws.com/git-ops-stag:d2ffd2161950e6ab731ac8a2c15d9433c88cc5ff"
+        ports:
+        - containerPort: 80
+        env:
+        - name: APP_KEY
+          value: base64:cUPmwHx4LXa4Z25HhzFiWCf7TlQmSqnt98pnuiHmzgY=
