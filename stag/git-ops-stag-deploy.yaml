@@ -2,7 +2,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: laravel-kubernetes-demo
+  name: laravel-kubernetes-stag
   annotations:
     fluxcd.io/automated: 'true'
 spec:
