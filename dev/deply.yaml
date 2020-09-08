@@ -1,3 +1,4 @@
+---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -12,10 +13,10 @@ spec:
         run: laravel-kubernetes-demo
     spec:
       containers:
-        - name: demo
-          image: gunahk/gitops:laravel-kubernetes-demo-gitops
-          ports:
-            - containerPort: 80
-          env:
-            - name: APP_KEY
-              value: base64:cUPmwHx4LXa4Z25HhzFiWCf7TlQmSqnt98pnuiHmzgY=
+      - name: demo
+        image: gunahk/gitops:sha-3f5dabd
+        ports:
+        - containerPort: 80
+        env:
+        - name: APP_KEY
+          value: base64:cUPmwHx4LXa4Z25HhzFiWCf7TlQmSqnt98pnuiHmzgY=
