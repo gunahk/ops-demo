@@ -28,7 +28,7 @@ on:
     branches:
       - stag
 
-name: Deploy to Amazon ECS
+name: Deploy to Amazon ECS from stag
 
 jobs:
   deploy:
