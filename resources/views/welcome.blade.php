@@ -102,7 +102,7 @@
     @endif
 
     <div class="content">
-        <img src="/img/k8s-logo-horizontal_color.png" alt="Learn K8s Logo">
+        <img src="/img/k8s-logo-horizontal_color.png" alt="second commit from gitops">
         <div class="title m-b-md">
             Demo PHP Application
         </div>
