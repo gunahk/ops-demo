@@ -3,8 +3,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: laravel-stag
-  annotations:
-    fluxcd.io/automated: 'true'
 spec:
   selector:
     matchLabels:
