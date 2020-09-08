@@ -1,0 +1,1 @@
+{"jobID":"c3ee5293-6569-86ed-8292-d0c7c6126c71","spec":{"type":"policy","cause":{"Message":"","User":"Guna sekhar \u003cguna.hk93@gmail.com\u003e"},"spec":{"default:deployment/laravel-stag":{"add":null,"remove":{"automated":"true"}}}},"result":null}
