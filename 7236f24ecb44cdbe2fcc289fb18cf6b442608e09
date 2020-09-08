@@ -1,0 +1,1 @@
+{"jobID":"fe314819-950c-48b1-fd85-ff2b9c9ccd19","spec":{"type":"policy","cause":{"Message":"","User":"Guna sekhar \u003cguna.hk93@gmail.com\u003e"},"spec":{"default:deployment/laravel-dev-deploy":{"add":null,"remove":{"automated":"true"}}}},"result":null}
