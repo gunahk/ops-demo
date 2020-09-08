@@ -110,7 +110,7 @@
         <div class="links">
             <a target="_blank" href="https://github.com/learnk8s/laravel-kubernetes-demo/blob/master/README.md"
                title="Documentation">Documentation</a>
-            <a target="_blank" href="https://learnk8s.io/">LearnK8s</a>
+            <a target="_blank" href="https://learnk8s.io/">secod commit from Gitops</a>
             <a target="_blank" href="https://github.com/learnk8s/laravel-kubernetes-demo"
                title="This app on GitHub"
             >GitHub</a>
