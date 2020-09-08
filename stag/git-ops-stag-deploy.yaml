@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: stag
-        image: "235537379753.dkr.ecr.us-east-1.amazonaws.com/git-ops-stag:e31a41af306b83533f1b847240a539771e9784e1"
+        image: "235537379753.dkr.ecr.us-east-1.amazonaws.com/git-ops-stag:481d4f60451a1cd1b17e4e88288eaa7d40f0ff3d"
         ports:
         - containerPort: 80
         env:
