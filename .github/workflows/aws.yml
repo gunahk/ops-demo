@@ -27,6 +27,10 @@ on:
   push:
     branches:
       - stag
+  pull_request:
+    branches:
+      - stag
+
 
 name: Deploy to Amazon ECS from stag
 
