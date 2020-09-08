@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: dev
-        image: "235537379753.dkr.ecr.us-east-1.amazonaws.com/git-ops-dev:c81279f9ddaf6e29ec7f2d0c95ceccaa06aebada"
+        image: "235537379753.dkr.ecr.us-east-1.amazonaws.com/git-ops-dev:c027518bc788f76207693275280f1f5ce0ff8195"
         ports:
         - containerPort: 80
         env:
