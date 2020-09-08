@@ -104,7 +104,7 @@
     <div class="content">
         <img src="/img/k8s-logo-horizontal_color.png" alt="second commit from gitops">
         <div class="title m-b-md">
-            Demo PHP Application
+            second commit from GitOps
         </div>
 
         <div class="links">
