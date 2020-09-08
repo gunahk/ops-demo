@@ -102,7 +102,7 @@
     @endif
 
     <div class="content">
-        <img src="/img/k8s-logo-horizontal_color.png" alt="second commit from gitops">
+        <img src="/img/k8s-logo-horizontal_color.png" alt="Fourth commit from gitops">
         <div class="title m-b-md">
             third commit from GitOps
         </div>
