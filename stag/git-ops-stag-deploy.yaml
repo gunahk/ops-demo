@@ -2,20 +2,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: laravel-kubernetes-stag
+  name: laravel-stag
   annotations:
     fluxcd.io/automated: 'true'
 spec:
   selector:
     matchLabels:
-      run: laravel-kubernetes-stag
+      run: laravel-stag
   template:
     metadata:
       labels:
-        run: laravel-kubernetes-stag
+        run: laravel-stag
     spec:
       containers:
-      - name: demo
+      - name: stag
         image: "235537379753.dkr.ecr.us-east-1.amazonaws.com/git-ops-stag:e31a41af306b83533f1b847240a539771e9784e1"
         ports:
         - containerPort: 80
