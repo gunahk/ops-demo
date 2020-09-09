@@ -2,19 +2,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: laravel-kubernetes-demo
+  name: laravel-dev-deploy
 spec:
   selector:
     matchLabels:
-      run: laravel-kubernetes-demo
+      run: laravel-dev
   template:
     metadata:
       labels:
-        run: laravel-kubernetes-demo
+        run: laravel-dev
     spec:
       containers:
-      - name: demo
-        image: gunahk/gitops:sha-3f5dabd
+      - name: dev
+        image: "235537379753.dkr.ecr.us-east-1.amazonaws.com/git-ops-dev:c027518bc788f76207693275280f1f5ce0ff8195"
         ports:
         - containerPort: 80
         env:
