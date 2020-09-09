@@ -2,19 +2,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: laravel-dev-deploy
+  name: laravel
 spec:
   selector:
     matchLabels:
-      run: laravel-dev
+      run: laravel
   template:
     metadata:
       labels:
-        run: laravel-dev
+        run: laravel
     spec:
       containers:
-      - name: dev
-        image: "235537379753.dkr.ecr.us-east-1.amazonaws.com/git-ops-dev:b76e90cadb6c36e2f53d59dc1ce23ab3ba1c23fd"
+      - name: master
+        image: "235537379753.dkr.ecr.us-east-1.amazonaws.com/git-ops:asdf"
         ports:
         - containerPort: 80
         env:
