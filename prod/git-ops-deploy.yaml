@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: master
-        image: "235537379753.dkr.ecr.us-east-1.amazonaws.com/git-ops:asdf"
+        image: "235537379753.dkr.ecr.us-east-1.amazonaws.com/git-ops-master:asdf"
         ports:
         - containerPort: 80
         env:
