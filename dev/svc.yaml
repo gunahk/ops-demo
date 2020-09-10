@@ -5,7 +5,7 @@ metadata:
   namespace: dev	
 spec:	
   ports:	
-    - nodePort: 31000	
+    - nodePort: 30000	
       port: 80	
       protocol: TCP	
       targetPort: 80	
