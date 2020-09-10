@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: demo
-          image: gunahk/gitops-masterasd
+          image: 235537379753.dkr.ecr.us-east-1.amazonaws.com/git-ops-master:anything
           ports:
             - containerPort: 80
           env:
