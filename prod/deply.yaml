@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: laravel-kubernetes
+spec:
+  selector:
+    matchLabels:
+      run: laravel-kubernetes
+  template:
+    metadata:
+      labels:
+        run: laravel-kubernetes
+    spec:
+      containers:
+        - name: demo
+          image: gunahk/gitops-masterasd
+          ports:
+            - containerPort: 80
+          env:
+            - name: APP_KEY
+              value: base64:cUPmwHx4LXa4Z25HhzFiWCf7TlQmSqnt98pnuiHmzgY=
