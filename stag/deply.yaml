@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: laravel-kubernetes-dev
+  name: laravel-kubernetes-stag
 spec:
   selector:
     matchLabels:
-      run: laravel-kubernetes-dev
+      run: laravel-kubernetes-stag
   template:
     metadata:
       labels:
-        run: laravel-kubernetes-dev
+        run: laravel-kubernetes-stag
     spec:
       containers:
         - name: demo
-          image: gunahk/gitops-dev:asd
+          image: gunahk/gitops-stag:asd
           ports:
             - containerPort: 80
           env:
